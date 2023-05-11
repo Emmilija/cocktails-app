@@ -1,0 +1,73 @@
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 222, 215);
+  }
+  
+  .button {
+    padding: 0.5rem;
+    background-color: rgb(155, 155, 155);
+  }
+  
+  input {
+    padding: 0.5rem;
+    background-color: rgb(231, 234, 234);
+  }
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    
+    
+  }
+  
+  .chooseCocktail {
+    height: 8rem;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .image-text {
+    width: 50%;
+  }
+  
+  .cocktails {
+   width: 100%;
+    align-items: center;
+    transition: all 0.5s;
+    
+  }
+  
+  .ingredients {
+    width:19%;
+  
+  }
+  
+  h2 {
+  text-align:left;
+  width: 100%;
+  }
+  h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+  
+  }
+   ul {
+    list-style: none;
+    
+  }
+  
+  li {
+    font-size: 1.2rem;
+    
+  } 
+  p {
+    font-size: 1.5rem;
+  }
